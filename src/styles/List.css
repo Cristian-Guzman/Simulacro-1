@@ -1,0 +1,17 @@
+
+.tabla{
+    color: rgb(173, 69, 69);
+    border: 1px solid rgb(173, 69, 69);
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-top: 5%; 
+    padding-right: 4%;
+}
+
+.btnEliminar {
+    padding: .3rem 2rem;
+    cursor: pointer;
+    background-color: rgb(231, 27, 27);
+    color: aliceblue;
+}
