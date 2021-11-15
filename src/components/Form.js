@@ -18,7 +18,6 @@ export const Form = () => {
     const enviarDatos = async e => {
         e.preventDefault()
         const { sabor, precio, imagen, id } = input;
-        alert('a perra')
         await fetch(API, {
             method: 'POST',
             body: JSON.stringify({
@@ -30,7 +29,7 @@ export const Form = () => {
             headers: {
                 "Content-Type": "application/json; charset=UTF-8"
         }})
-        alert('creo que funcionó xd')
+        alert('Los datos se guardaron correctamente.')
     }
 
     return (
